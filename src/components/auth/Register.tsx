@@ -19,11 +19,12 @@ const Login: React.FC<LoginProps> = ({ loginToggler }) => {
                     }
                 />
                 <PasswordInput />
+                <PasswordInput />
                 <button
                     type="submit"
                     className="p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300 w-1/3"
                 >
-                    Login
+                    Register
                 </button>
                 <Divider />
             </form>
@@ -31,7 +32,7 @@ const Login: React.FC<LoginProps> = ({ loginToggler }) => {
                 className="text-blue-100 hover:text-sky-300 transition-all"
                 onClick={loginToggler}
             >
-                Register if you don't have an account
+                Login if you have an account
             </button>
         </div>
     );
